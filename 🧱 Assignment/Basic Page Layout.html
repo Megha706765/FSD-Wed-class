@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Page Layout</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        height: 100vh;
+      }
+      header {
+        height: 15vh;
+        width: 100%;
+        background-color: lightblue;
+      }
+      nav {
+        height: 7vh;
+        width: 100%;
+        background-color: lightcoral;
+        display: flex;
+      }
+      p {
+        font-size: 1.1rem;
+        margin: 5px;
+      }
+      #one {
+        font-size: 13px;
+        text-align: center;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        border-radius: 3px;
+        width: 40px;
+        height: 15px;
+      }
+      span {
+        margin: 6px 5px 5px 0px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>MY WEBSITE</h1>
+      <nav>
+        <p>Explore</p>
+        <span class="material-symbols-outlined"> stat_minus_1 </span>
+        <p>Director</p>
+        <p>Academy</p>
+        <span id="one">New</span>
+        <p>Jobs</p>
+        <p>Markeet</p>
+        <input type="text" placeholder="Search by directory" />
+        <p>Log in</p>
+        <p>sign Up</p>
+        <button>Be Pro</button>
+        <button>Submit Website</button>
+      </nav>
+    </header>
+
+    <div id="main">
+      <section></section>
+      <section></section>
+    </div>
+    <footer></footer>
+  </body>
+</html>
